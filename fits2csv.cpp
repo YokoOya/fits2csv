@@ -143,7 +143,6 @@ void readimage(fitsfile *fptrin, FILE *fptrout, int hdu, int *statusptr) {
 				iaxes[j] -= naxes[j];
 				++iaxes[j - 1];
 		}
-		if (iaxes[naxis - 1] == 0) fprintf(fptrout, "\n");
 	}
 	
 	
